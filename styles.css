@@ -1,0 +1,118 @@
+.top-container{
+    background-color: #efefef;
+    display: flex;
+    overflow: none;
+    width: auto;
+    height: 189px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+  
+
+}
+
+.navbar a{
+    font-size: 72px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Oswald';
+    font-weight: medium;
+    text-decoration: none;
+    color: #161616;
+    margin: 0;
+    padding-left: 64px;
+
+    
+}
+
+.orange{
+    color:#F78835;
+    font-weight: bolder;
+}
+
+.fa fa-fw-title{
+
+}
+
+.body-flex-contianer{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+}
+
+
+.borderimg{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 396px;
+    height:300px;
+    
+    
+}
+
+.bubbleText{
+    color: #f7f7f7;
+    text-align: center;
+    font-family: 'Amiko';
+    font-size: 36px;
+
+   
+
+}
+/*
+.cardbackgroundO{
+    width: 396px;
+    height:300px;
+    position: relative;
+}
+
+.containerOrange{
+
+}
+
+*/
+
+
+.homeCard{
+    position: relative;
+    width: 396px;
+    height: 300px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 51px -17px rgba(0,0,0,0.46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homepageCardBGY{
+    background: linear-gradient(#FDFAEB, #F1DD75, #DFBD0A);
+   
+ }
+
+#homepageCardBGP{
+    background: linear-gradient(#E5CAF2, #7D1BAC);
+   
+
+}
+
+#homepageCardBGO{
+    background: linear-gradient(#FDC79E, #F78835, #D9752A);
+  
+ }
+
+ #homepageCardBGR{
+    background: linear-gradient(#F6E1E4, #D74759, #840213);
+   
+  
+ }
+
+ #homepageCardBGB{
+    background: linear-gradient(#F6FBFE, #60BDEF, #156A98);
+  
+ }
+
